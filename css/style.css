@@ -1,0 +1,65 @@
+/* CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3em;
+  color: #CE5937;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #151515;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.explicacao {
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+.explicacao p {
+  color: rgba(255, 255, 255, 0.356);
+}
+
+.texto {
+  background: url(../img/guy-fawkes-mask.jpg)no-repeat center;
+  width: 500px;
+  background-size: contain;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 254, .15);
+}
+
+.texto:hover {
+  color: #cecece;
+  transition: 700ms all ease-in-out;
+}
